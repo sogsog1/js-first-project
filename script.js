@@ -13,7 +13,7 @@ function resetCount() {
 }
 
 function decrease() {
-  count = count - 1
+  count = count - 1;
   document.getElementById("count").innerText = count;
 }
 
