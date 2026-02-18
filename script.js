@@ -11,6 +11,10 @@ function resetCount() {
   document.getElementById("count").innerText = count;
 }
 
+function decrease() {
+  count = count - 1
+  document.getElementById("count").innerText = count;
+
 // Task List
 function addTask() {
   let input = document.getElementById("taskInput");
