@@ -1,6 +1,6 @@
 // Counter
 let count = 450;
-document.getElementById("count").innerText = 100;
+document.getElementById("count").innerText = 450;
 
 function increase() {
   count = count + 100;
