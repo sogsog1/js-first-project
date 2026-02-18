@@ -3,9 +3,14 @@ let count = 100;
 document.getElementById("count").innerText = 100;
 
 function increase() {
-  count = count + 1;
+  count = count + 100;
   document.getElementById("count").innerText = count;
+
+  if (count >= 500) {
+    document.body.style.backgroundColor = "lightgreen";
+  }
 }
+
 
 function resetCount() {
   count = 0;
